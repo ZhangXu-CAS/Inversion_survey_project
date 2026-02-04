@@ -1,0 +1,1 @@
+for i in `cat ids`; do samtools quickcheck ${i}/*.filtered.bam && echo ''$i' ok' || echo ''$i' fail'; done
