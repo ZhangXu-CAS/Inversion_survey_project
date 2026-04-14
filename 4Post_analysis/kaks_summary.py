@@ -2,13 +2,6 @@
 """
 summarize_kaks.py
 
-扫描 ./kaks_re/*.kaks.csv，统计每个样本的 Ka, Ks, Ka/Ks 的 mean, median，
-并统计 95th-percentile 以上的 outliers 数量。
-过滤规则：
- - 若 Ks == 0 则无法计算 Ka/Ks（计为被排除）
- - 仅对 Ka/Ks <= 2 的记录进行统计（即保留 Ka/Ks<=2）
-脚本会输出每个样本的 summary，并生成 kaks_summary.csv
-"""
 
 import os
 import glob
