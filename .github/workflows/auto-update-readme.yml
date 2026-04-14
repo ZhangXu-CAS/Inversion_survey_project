@@ -1,0 +1,46 @@
+name: Auto Update README
+
+on:
+  push:
+    paths:
+      - "0data_prepare/**"
+      - "1assmbly/**"
+      - "2SV_identify/**"
+      - "3Genome_annotation/**"
+      - "4Post_analysis/**"
+      - "scripts/generate_readme.py"
+      - ".github/workflows/auto-update-readme.yml"
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Generate README files
+        run: python scripts/generate_readme.py
+
+      - name: Commit and push if changed
+        run: |
+          if git diff --quiet; then
+            echo "No README changes detected."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md README_zh.md
+          git commit -m "docs: auto-update README"
+          git push
