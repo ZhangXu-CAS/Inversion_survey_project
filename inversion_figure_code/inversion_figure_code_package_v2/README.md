@@ -22,8 +22,6 @@ Outputs are written under `outputs/`.
 Notes:
 - Figure 1 main is intentionally excluded because it is Illustrator-drawn.
 - Panel names and output names were standardized.
-- Dead or duplicated code was removed where possible.
-- Figure 4 was simplified to use the Ka/Ks-shift table actually used by the final plotting section.
 - Supplementary Fig. 6 was kept because it appears in the current robustness workflow.
 
 Verification status:
