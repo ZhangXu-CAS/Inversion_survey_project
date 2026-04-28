@@ -23,4 +23,4 @@ Annotate genomes under 3Genome_annotation/.
 
 Perform downstream analyses under 4Post_analysis/.
 
-Plot results using 5plot/.
+Plot results using R scripts.
