@@ -46,11 +46,9 @@ This folder contains the **manuscript-associated R figure-analysis layer** for *
 ## Computing environment
 
 - **Operating system:** Unix-like environment supporting Rscript (e.g. Linux or macOS). Record the actual tested OS/kernel in the release.
-- **R:** Install a version compatible with the current scripts. Record the tested version using `Rscript --version` and `sessionInfo()`; **a tested minimum version is not yet specified here**.
-- **R package dependencies:** inspect every `.R` file for explicit `library()`, `require()` and `package::function()` calls. The project's earlier R code used packages including `ape`, `phytools`, `phylolm`, `nlme`, `dplyr`, `readr`, `tidyr`, `ggplot2`, `patchwork` and `scales`, **but this historical list must not be treated as a verified dependency list for this folder**.
+- **R:** Install a version compatible with the current scripts. Record the tested version using `Rscript --version` and `sessionInfo()`;
+- **R package dependencies:** inspect every `.R` file for explicit `library()`, `require()` and `package::function()` calls. The project's earlier R code used packages including `ape`, `phytools`, `phylolm`, `nlme`, `dplyr`, `readr`, `tidyr`, `ggplot2`, `patchwork` and `scales`
 - **Optional tools:** Python 3 for independent input checks; external tools and HPC resources are needed only for upstream assembly and read-level reproduction (see repository-root README).
-
-Recommended after a successful test: save `renv.lock` (or a locked Conda environment), identify Bioconductor dependencies explicitly, and retain R package `sessionInfo()` for each manuscript figure generation run. The correct package installation procedure must be established from those tested dependencies; do not install guessed versions into a manuscript release.
 
 ## Quick start
 
@@ -93,7 +91,7 @@ Create a `FIGURE_MANIFEST.tsv` with **one row per manuscript panel**, containing
 figure_id    panel    script    input_files    output_files    analysis_method    tested_status
 ```
 
-For example, a manuscript Fig. 2 correlation panel should identify which script fits the phylogenetic regression, which input CSV/tree it uses, how `β` is computed, which output figure it produces, and whether the reproduced values match the submitted paper. **Do not use outdated `Extended_Data_Fig5`/other filenames to infer the current panel mapping.**
+For example, a manuscript Fig. 2 correlation panel should identify which script fits the phylogenetic regression, which input CSV/tree it uses, how `β` is computed, which output figure it produces, and whether the reproduced values match the submitted paper. 
 
 ### Phylogenetic analysis specification
 
