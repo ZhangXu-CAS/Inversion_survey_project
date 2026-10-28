@@ -31,7 +31,10 @@ IN_PER_INVERSION <- file.path(PROJ_ROOT, 'per_inversion.csv')
 
 per_genome <- load_per_genome()
 per_inv <- load_per_inversion()
-PGLS_FILE <- file.path(PROJ_ROOT, 'Fig2_PGLS_beta_95CI.csv')
+PGLS_FILE <- file.path(PROJ_ROOT, "phylogenetic_revision_FINAL","13_main_Fig2_phylogenetic_correlations.csv")
+if (!file.exists(PGLS_FILE)) {
+  stop("PGLS results missing: ", PGLS_FILE)
+}
 pgls_c_labels <- read_pgls_labels(PGLS_FILE, 'log10_inv_count_per_Gb')
 pgls_f_labels <- read_pgls_labels(PGLS_FILE, 'median_log10_inv_length')
 
