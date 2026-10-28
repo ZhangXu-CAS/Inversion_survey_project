@@ -1,0 +1,91 @@
+Strategy,Sample,Kingdom,Simulated_INV_count,Called_INV_count,TP,FP,FN,Precision,Recall,FDR
+Small-biased,PRJEB51331,Metazoa,80,79,78,1,2,0.9873,0.975,0.0127
+Small-biased,PRJEB51448,Metazoa,80,75,74,1,6,0.9867,0.925,0.0133
+Small-biased,PRJEB51450,Metazoa,80,76,75,1,4,1,0.949367089,0.013157895
+Small-biased,PRJEB51914,Metazoa,80,73,73,0,7,1,0.9125,0
+Small-biased,PRJEB51916,Metazoa,80,72,66,6,14,0.9167,0.825,0.0833
+Small-biased,PRJEB52019,Metazoa,80,80,80,0,0,1,1,0
+Small-biased,PRJEB52023,Metazoa,80,79,78,1,2,0.9873,0.975,0.0127
+Small-biased,PRJEB52476,Metazoa,80,79,79,0,1,1,0.9875,0
+Small-biased,PRJEB52572,Metazoa,80,67,65,2,15,0.9701,0.8125,0.0299
+Small-biased,PRJEB52574,Metazoa,80,80,80,0,0,1,1,0
+Small-biased,PRJEB61610,Viridiplantae,80,70,70,0,10,1,0.875,0
+Small-biased,PRJEB61851,Viridiplantae,80,73,73,0,7,1,0.9125,0
+Small-biased,PRJEB62441,Viridiplantae,80,80,79,1,1,0.9875,0.9875,0.0125
+Small-biased,PRJEB64063,Viridiplantae,80,71,69,2,11,0.9718,0.8625,0.000397183
+Small-biased,PRJEB64723,Viridiplantae,80,71,70,1,9,0.9825,0.898734177,0.0175
+Small-biased,PRJEB65218,Viridiplantae,80,75,74,1,6,0.9867,0.925,0.0133
+Small-biased,PRJEB65659,Viridiplantae,80,78,78,0,2,1,0.975,0
+Small-biased,PRJEB65675,Viridiplantae,80,64,64,0,16,1,0.8,0
+Small-biased,PRJEB65681,Viridiplantae,80,72,72,0,8,1,0.9,0
+Small-biased,PRJEB65683,Viridiplantae,80,75,75,0,5,1,0.9375,0
+Small-biased,PRJEB52021,Fungi,80,75,75,0,5,1,0.9375,0
+Small-biased,PRJEB52212,Fungi,80,79,79,0,1,1,0.9875,0
+Small-biased,PRJEB52214,Fungi,80,80,80,0,0,1,1,0
+Intermediate,PRJEB51331,Metazoa,60,58,56,2,4,0.9655,0.9333,0.0345
+Intermediate,PRJEB51448,Metazoa,60,59,58,1,2,0.9831,0.9667,0.0169
+Intermediate,PRJEB51450,Metazoa,60,58,53,5,7,0.9138,0.8833,0.0862
+Intermediate,PRJEB51914,Metazoa,60,59,59,0,1,1,0.9833,0
+Intermediate,PRJEB51916,Metazoa,60,62,55,7,5,0.8871,0.9167,0.1129
+Intermediate,PRJEB52019,Metazoa,60,59,59,0,1,1,0.9833,0
+Intermediate,PRJEB52023,Metazoa,60,59,59,0,1,1,0.9833,0
+Intermediate,PRJEB52476,Metazoa,60,60,60,0,0,1,1,0
+Intermediate,PRJEB52572,Metazoa,60,57,57,0,3,1,0.95,0
+Intermediate,PRJEB52574,Metazoa,60,60,60,0,0,1,1,0
+Intermediate,PRJEB61610,Viridiplantae,60,60,59,1,1,0.9833,0.9833,0.0167
+Intermediate,PRJEB61851,Viridiplantae,60,59,58,1,2,0.9831,0.9667,0.0169
+Intermediate,PRJEB62441,Viridiplantae,60,57,57,0,3,1,0.95,0
+Intermediate,PRJEB64063,Viridiplantae,60,57,55,2,5,0.9649,0.9167,0.0351
+Intermediate,PRJEB64723,Viridiplantae,60,56,55,1,5,0.9821,0.9167,0.0179
+Intermediate,PRJEB65218,Viridiplantae,60,60,59,1,1,0.9833,0.9833,0.0167
+Intermediate,PRJEB65659,Viridiplantae,60,58,58,0,2,1,0.9667,0
+Intermediate,PRJEB65675,Viridiplantae,60,54,53,1,7,0.9815,0.8833,0.0185
+Intermediate,PRJEB65681,Viridiplantae,60,59,58,1,2,0.9831,0.9667,0.0169
+Intermediate,PRJEB65683,Viridiplantae,60,59,59,0,1,1,0.9833,0
+Intermediate,PRJEB52212,Fungi,60,58,58,0,2,1,0.9667,0
+Intermediate,PRJEB52214,Fungi,60,60,60,0,0,1,1,0
+Large-biased,PRJEB51331,Metazoa,40,40,39,1,1,0.975,0.975,0.025
+Large-biased,PRJEB51448,Metazoa,40,40,39,1,1,0.975,0.975,0.025
+Large-biased,PRJEB51450,Metazoa,40,39,37,2,3,0.9487,0.925,0.0513
+Large-biased,PRJEB51914,Metazoa,40,38,38,0,2,1,0.95,0
+Large-biased,PRJEB51916,Metazoa,40,42,39,3,1,0.9286,0.975,0.0714
+Large-biased,PRJEB52019,Metazoa,40,40,40,0,0,1,1,0
+Large-biased,PRJEB52023,Metazoa,40,40,40,0,0,1,1,0
+Large-biased,PRJEB52476,Metazoa,40,40,40,0,0,1,1,0
+Large-biased,PRJEB52572,Metazoa,40,39,37,2,3,0.9487,0.925,0.0513
+Large-biased,PRJEB52574,Metazoa,40,40,40,0,0,1,1,0
+Large-biased,PRJEB61610,Viridiplantae,40,39,38,1,2,0.9744,0.95,0.0256
+Large-biased,PRJEB61851,Viridiplantae,40,38,38,0,2,1,0.95,0
+Large-biased,PRJEB62441,Viridiplantae,40,40,40,0,0,1,1,0
+Large-biased,PRJEB64063,Viridiplantae,40,40,39,1,1,0.975,0.975,0.025
+Large-biased,PRJEB64723,Viridiplantae,40,39,37,2,3,0.9487,0.925,0.0513
+Large-biased,PRJEB65218,Viridiplantae,40,40,39,1,1,0.975,0.975,0.025
+Large-biased,PRJEB65659,Viridiplantae,40,40,39,1,1,0.975,0.975,0.025
+Large-biased,PRJEB65675,Viridiplantae,40,38,38,0,2,1,0.95,0
+Large-biased,PRJEB65681,Viridiplantae,40,39,38,1,2,0.9744,0.95,0.0256
+Large-biased,PRJEB65683,Viridiplantae,40,40,40,0,0,1,1,0
+Large-biased,PRJEB52212,Fungi,40,40,40,0,0,1,1,0
+Large-biased,PRJEB52214,Fungi,40,40,40,0,0,1,1,0
+Hifi reads-biased,PRJEB51331,Metazoa,60,58,57,1,3,0.9828,0.95,0.0172
+Hifi reads-biased,PRJEB51448,Metazoa,60,53,53,0,7,1,0.8833,0
+Hifi reads-biased,PRJEB51450,Metazoa,60,58,53,5,7,0.9138,0.8833,0.0862
+Hifi reads-biased,PRJEB51914,Metazoa,60,51,51,0,9,1,0.85,0
+Hifi reads-biased,PRJEB51916,Metazoa,60,56,51,5,9,0.9107,0.85,0.0893
+Hifi reads-biased,PRJEB52019,Metazoa,60,59,59,0,1,1,0.9833,0
+Hifi reads-biased,PRJEB52023,Metazoa,60,58,58,0,2,1,0.9667,0
+Hifi reads-biased,PRJEB52476,Metazoa,60,60,60,0,0,1,1,0
+Hifi reads-biased,PRJEB52572,Metazoa,60,59,58,1,2,0.9831,0.9667,0.0169
+Hifi reads-biased,PRJEB52574,Metazoa,60,58,58,0,2,1,0.9667,0
+Hifi reads-biased,PRJEB61610,Viridiplantae,60,53,52,1,8,0.9811,0.8667,0.0189
+Hifi reads-biased,PRJEB61851,Viridiplantae,60,60,59,1,1,0.9833,0.9833,0.0167
+Hifi reads-biased,PRJEB62441,Viridiplantae,60,57,55,2,5,0.9649,0.9167,0.0351
+Hifi reads-biased,PRJEB64063,Viridiplantae,60,51,51,0,9,1,0.85,0
+Hifi reads-biased,PRJEB64723,Viridiplantae,60,56,55,1,5,0.9821,0.9167,0.0179
+Hifi reads-biased,PRJEB65218,Viridiplantae,60,55,54,1,6,0.9818,0.9,0.0182
+Hifi reads-biased,PRJEB65659,Viridiplantae,60,54,54,0,6,1,0.9,0
+Hifi reads-biased,PRJEB65675,Viridiplantae,60,50,50,0,10,1,0.8333,0
+Hifi reads-biased,PRJEB65681,Viridiplantae,60,59,58,1,2,0.9831,0.9667,0.0169
+Hifi reads-biased,PRJEB65683,Viridiplantae,60,51,50,1,10,0.9804,0.8333,0.0196
+Hifi reads-biased,PRJEB52021,Fungi,60,59,59,0,1,1,0.9833,0
+Hifi reads-biased,PRJEB52212,Fungi,60,56,55,1,5,0.9821,0.9167,0.0179
+Hifi reads-biased,PRJEB52214,Fungi,60,59,59,0,1,1,0.9833,0
