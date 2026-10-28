@@ -19,8 +19,8 @@ setwd(ROOT)
 FILES <- list(
   per_genome = "per_genome.csv",
   per_inversion = "per_inversion.csv",
-  animal = "phylogenetic/animal_mcmctree_augmented_verified.nwk",
-  plant =  "phylogenetic/plant_mcmctree_sanitized.nwk")
+  animal = "animal_mcmctree_augmented_verified.nwk",
+  plant =  "plant_mcmctree_sanitized.nwk")
 
 OUTDIR <- file.path(ROOT, "phylogenetic_revision_FINAL")
 dir.create(OUTDIR, recursive = TRUE, showWarnings = FALSE)
