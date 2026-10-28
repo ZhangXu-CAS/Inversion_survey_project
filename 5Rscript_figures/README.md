@@ -1,6 +1,6 @@
 # Figure analyses and supporting datasets
 
-This folder contains the **manuscript-associated R figure-analysis layer** for *Contrasting regimes of chromosomal inversion evolution across plants and animals*. The intent is to make the aggregate comparisons, phylogenetic analyses and figure generation as transparent as possible, without requiring every user to reassemble all genomes.
+This folder contains the **manuscript-associated R figure-analysis layer** for *Contrasting regimes of chromosomal inversion evolution across plants and animals*. 
 
 **Reproducibility status:** Input filenames and directory layout below are taken from the authors' 27 October 2026 code folder. 
 
