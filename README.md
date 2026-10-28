@@ -18,7 +18,7 @@ Inversion_survey_project/
 ├── 2SV_identify/                  # Structural-variant and inversion discovery
 ├── 3Genome_annotation/            # Repeats and gene annotations
 ├── 4Post_analysis/                # Genomic and evolutionary post-processing
-└── 5_Rscript_figures/             # Manuscript analysis tables, trees and figure scripts
+└── 5Rscript_figures/              # Manuscript analysis tables, trees and figure scripts
     ├── README.md                  # Detailed usage and input reference
     ├── run_all.R                  # Figure-analysis entry-point supplied by authors
     ├── main_figures/
@@ -45,7 +45,7 @@ Validate the central summary tables and the archived input files:
 Rscript -e 'g <- read.csv("per_genome.csv"); i <- read.csv("per_inversion.csv"); stopifnot(nrow(g) == 1174L, nrow(i) == 130159L); print(table(g$kingdom)); print(table(i$kingdom))'
 ```
 
-After installing the R package dependencies listed in [`5_Rscript_figures/README.md`](5_Rscript_figures/README.md), check the figure entry point and run from its own directory:
+After installing the R package dependencies listed in [`5Rscript_figures/README.md`](5Rscript_figures/README.md), check the figure entry point and run from its own directory:
 
 ```bash
 Rscript --version
@@ -68,8 +68,8 @@ Rscript run_all.R
 
 - Raw HiFi and Hi-C reads: see the paper's sequencing accession list (Supplementary Table 1) and the originating ENA/NCBI SRA records.
 - Published genomes and supplementary input resources: see manuscript Data Availability, associated repositories and provenance tables.
-- Manuscript numerical inputs: [`5_Rscript_figures/`](5_Rscript_figures/), including `per_genome.csv`, `per_inversion.csv` and additional analysis-specific tables.
-- Figure-generation details: [`5_Rscript_figures/README.md`](5_Rscript_figures/README.md).
+- Manuscript numerical inputs: [`5Rscript_figures/`](5Rscript_figures/), including `per_genome.csv`, `per_inversion.csv` and additional analysis-specific tables.
+- Figure-generation details: [`5Rscript_figures/README.md`](5Rscript_figures/README.md).
 
 ## Code availability, versioning and licence
 
