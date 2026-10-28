@@ -61,7 +61,7 @@ Rscript run_all.R
 | 2 | `2SV_identify/` | Whole-genome alignment, inversion candidate discovery and filtering | Phased genome assemblies, minimap2, SyRI |
 | 3 | `3Genome_annotation/` | Repeats, gene prediction and genomic annotations | Genome FASTA, RepeatModeler2/RepeatMasker, BRAKER3, BUSCO |
 | 4 | `4Post_analysis/` | Haplotype divergence, inversion context and coding-sequence summaries | Assemblies, alignments, annotations and inversion catalogue |
-| 5 | `5_Rscript_figures/` | Statistical summaries, sensitivity analyses and figure generation | Verified tabular inputs, species trees, R packages |
+| 5 | `5Rscript_figures/` | Statistical summaries, sensitivity analyses and figure generation | Verified tabular inputs, species trees, R packages |
 
 
 ## Reproducibility
